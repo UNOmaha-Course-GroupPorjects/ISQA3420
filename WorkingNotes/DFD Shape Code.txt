@@ -1,0 +1,410 @@
+
+----------------------------------------------------------------------------------------------------
+Data Store Shape
+----------------------------------------------------------------------------------------------------
+
+--------------------------------------------------
+Data Store Opens on the Right:
+--------------------------------------------------
+
+
+<shape name="Annotation 1" h="100" w="100" aspect="variable" strokewidth="inherit">
+  <connections>
+    <constraint x="0.00" y="0.00" perimeter="0"/>
+    <constraint x="0.05" y="0.00" perimeter="0"/>
+    <constraint x="0.10" y="0.00" perimeter="0"/>
+    <constraint x="0.15" y="0.00" perimeter="0"/>
+    <constraint x="0.20" y="0.00" perimeter="0"/>
+    <constraint x="0.25" y="0.00" perimeter="0"/>
+    <constraint x="0.30" y="0.00" perimeter="0"/>
+    <constraint x="0.35" y="0.00" perimeter="0"/>
+    <constraint x="0.40" y="0.00" perimeter="0"/>
+    <constraint x="0.45" y="0.00" perimeter="0"/>
+    <constraint x="0.50" y="0.00" perimeter="0"/>
+    <constraint x="0.55" y="0.00" perimeter="0"/>
+    <constraint x="0.60" y="0.00" perimeter="0"/>
+    <constraint x="0.65" y="0.00" perimeter="0"/>
+    <constraint x="0.70" y="0.00" perimeter="0"/>
+    <constraint x="0.75" y="0.00" perimeter="0"/>
+    <constraint x="0.80" y="0.00" perimeter="0"/>
+    <constraint x="0.85" y="0.00" perimeter="0"/>
+    <constraint x="0.90" y="0.00" perimeter="0"/>
+    <constraint x="0.95" y="0.00" perimeter="0"/>
+    <constraint x="1.00" y="0.00" perimeter="0"/>
+    <constraint x="0.90" y="0.05" perimeter="0"/>
+    <constraint x="0.90" y="0.10" perimeter="0"/>
+    <constraint x="0.90" y="0.15" perimeter="0"/>
+    <constraint x="0.90" y="0.20" perimeter="0"/>
+    <constraint x="0.90" y="0.25" perimeter="0"/>
+    <constraint x="0.90" y="0.30" perimeter="0"/>
+    <constraint x="0.90" y="0.35" perimeter="0"/>
+    <constraint x="0.90" y="0.40" perimeter="0"/>
+    <constraint x="0.90" y="0.45" perimeter="0"/>
+    <constraint x="0.90" y="0.50" perimeter="0"/>
+    <constraint x="0.90" y="0.55" perimeter="0"/>
+    <constraint x="0.90" y="0.60" perimeter="0"/>
+    <constraint x="0.90" y="0.65" perimeter="0"/>
+    <constraint x="0.90" y="0.70" perimeter="0"/>
+    <constraint x="0.90" y="0.75" perimeter="0"/>
+    <constraint x="0.90" y="0.80" perimeter="0"/>
+    <constraint x="0.90" y="0.85" perimeter="0"/>
+    <constraint x="0.90" y="0.90" perimeter="0"/>
+    <constraint x="0.90" y="0.95" perimeter="0"/>
+    <constraint x="1.00" y="1.00" perimeter="0"/>
+    <constraint x="1.00" y="1.00" perimeter="0"/>
+    <constraint x="0.95" y="1.00" perimeter="0"/>
+    <constraint x="0.90" y="1.00" perimeter="0"/>
+    <constraint x="0.85" y="1.00" perimeter="0"/>
+    <constraint x="0.80" y="1.00" perimeter="0"/>
+    <constraint x="0.75" y="1.00" perimeter="0"/>
+    <constraint x="0.70" y="1.00" perimeter="0"/>
+    <constraint x="0.65" y="1.00" perimeter="0"/>
+    <constraint x="0.60" y="1.00" perimeter="0"/>
+    <constraint x="0.55" y="1.00" perimeter="0"/>
+    <constraint x="0.50" y="1.00" perimeter="0"/>
+    <constraint x="0.45" y="1.00" perimeter="0"/>
+    <constraint x="0.40" y="1.00" perimeter="0"/>
+    <constraint x="0.35" y="1.00" perimeter="0"/>
+    <constraint x="0.30" y="1.00" perimeter="0"/>
+    <constraint x="0.25" y="1.00" perimeter="0"/>
+    <constraint x="0.20" y="1.00" perimeter="0"/>
+    <constraint x="0.15" y="1.00" perimeter="0"/>
+    <constraint x="0.10" y="1.00" perimeter="0"/>
+    <constraint x="0.05" y="1.00" perimeter="0"/>
+    <constraint x="0.00" y="1.00" perimeter="0"/>
+    <constraint x="0.00" y="0.95" perimeter="0"/>
+    <constraint x="0.00" y="0.90" perimeter="0"/>
+    <constraint x="0.00" y="0.85" perimeter="0"/>
+    <constraint x="0.00" y="0.80" perimeter="0"/>
+    <constraint x="0.00" y="0.75" perimeter="0"/>
+    <constraint x="0.00" y="0.70" perimeter="0"/>
+    <constraint x="0.00" y="0.65" perimeter="0"/>
+    <constraint x="0.00" y="0.60" perimeter="0"/>
+    <constraint x="0.00" y="0.55" perimeter="0"/>
+    <constraint x="0.00" y="0.50" perimeter="0"/>
+    <constraint x="0.00" y="0.45" perimeter="0"/>
+    <constraint x="0.00" y="0.40" perimeter="0"/>
+    <constraint x="0.00" y="0.35" perimeter="0"/>
+    <constraint x="0.00" y="0.30" perimeter="0"/>
+    <constraint x="0.00" y="0.25" perimeter="0"/>
+    <constraint x="0.00" y="0.20" perimeter="0"/>
+    <constraint x="0.00" y="0.15" perimeter="0"/>
+    <constraint x="0.00" y="0.10" perimeter="0"/>
+    <constraint x="0.00" y="0.05" perimeter="0"/>
+  </connections>
+  <background>
+    <path>
+      <move x="100" y="0"/>
+      <line x="0" y="0"/>
+      <line x="0" y="100"/>
+      <line x="100" y="100"/>
+    </path>
+  </background>
+  <foreground>
+    <stroke/>
+  </foreground>
+</shape>
+
+
+--------------------------------------------------
+Data Store Opens on the Left:
+--------------------------------------------------
+
+
+<shape name="Annotation 1" h="100" w="50" aspect="variable" strokewidth="inherit">
+  <connections>
+    <constraint x="0.00" y="0.00" perimeter="0"/>
+    <constraint x="0.05" y="0.00" perimeter="0"/>
+    <constraint x="0.10" y="0.00" perimeter="0"/>
+    <constraint x="0.15" y="0.00" perimeter="0"/>
+    <constraint x="0.20" y="0.00" perimeter="0"/>
+    <constraint x="0.25" y="0.00" perimeter="0"/>
+    <constraint x="0.30" y="0.00" perimeter="0"/>
+    <constraint x="0.35" y="0.00" perimeter="0"/>
+    <constraint x="0.40" y="0.00" perimeter="0"/>
+    <constraint x="0.45" y="0.00" perimeter="0"/>
+    <constraint x="0.50" y="0.00" perimeter="0"/>
+    <constraint x="0.55" y="0.00" perimeter="0"/>
+    <constraint x="0.60" y="0.00" perimeter="0"/>
+    <constraint x="0.65" y="0.00" perimeter="0"/>
+    <constraint x="0.70" y="0.00" perimeter="0"/>
+    <constraint x="0.75" y="0.00" perimeter="0"/>
+    <constraint x="0.80" y="0.00" perimeter="0"/>
+    <constraint x="0.85" y="0.00" perimeter="0"/>
+    <constraint x="0.90" y="0.00" perimeter="0"/>
+    <constraint x="0.95" y="0.00" perimeter="0"/>
+    <constraint x="1.00" y="0.00" perimeter="0"/>
+    <constraint x="1.00" y="0.05" perimeter="0"/>
+    <constraint x="1.00" y="0.10" perimeter="0"/>
+    <constraint x="1.00" y="0.15" perimeter="0"/>
+    <constraint x="1.00" y="0.20" perimeter="0"/>
+    <constraint x="1.00" y="0.25" perimeter="0"/>
+    <constraint x="1.00" y="0.30" perimeter="0"/>
+    <constraint x="1.00" y="0.35" perimeter="0"/>
+    <constraint x="1.00" y="0.40" perimeter="0"/>
+    <constraint x="1.00" y="0.45" perimeter="0"/>
+    <constraint x="1.00" y="0.50" perimeter="0"/>
+    <constraint x="1.00" y="0.55" perimeter="0"/>
+    <constraint x="1.00" y="0.60" perimeter="0"/>
+    <constraint x="1.00" y="0.65" perimeter="0"/>
+    <constraint x="1.00" y="0.70" perimeter="0"/>
+    <constraint x="1.00" y="0.75" perimeter="0"/>
+    <constraint x="1.00" y="0.80" perimeter="0"/>
+    <constraint x="1.00" y="0.85" perimeter="0"/>
+    <constraint x="1.00" y="0.90" perimeter="0"/>
+    <constraint x="1.00" y="0.95" perimeter="0"/>
+    <constraint x="1.00" y="1.00" perimeter="0"/>
+    <constraint x="1.00" y="1.00" perimeter="0"/>
+    <constraint x="0.95" y="1.00" perimeter="0"/>
+    <constraint x="0.90" y="1.00" perimeter="0"/>
+    <constraint x="0.85" y="1.00" perimeter="0"/>
+    <constraint x="0.80" y="1.00" perimeter="0"/>
+    <constraint x="0.75" y="1.00" perimeter="0"/>
+    <constraint x="0.70" y="1.00" perimeter="0"/>
+    <constraint x="0.65" y="1.00" perimeter="0"/>
+    <constraint x="0.60" y="1.00" perimeter="0"/>
+    <constraint x="0.55" y="1.00" perimeter="0"/>
+    <constraint x="0.50" y="1.00" perimeter="0"/>
+    <constraint x="0.45" y="1.00" perimeter="0"/>
+    <constraint x="0.40" y="1.00" perimeter="0"/>
+    <constraint x="0.35" y="1.00" perimeter="0"/>
+    <constraint x="0.30" y="1.00" perimeter="0"/>
+    <constraint x="0.25" y="1.00" perimeter="0"/>
+    <constraint x="0.20" y="1.00" perimeter="0"/>
+    <constraint x="0.15" y="1.00" perimeter="0"/>
+    <constraint x="0.10" y="1.00" perimeter="0"/>
+    <constraint x="0.05" y="1.00" perimeter="0"/>
+    <constraint x="0.00" y="1.00" perimeter="0"/>
+    <constraint x="0.10" y="0.95" perimeter="0"/>
+    <constraint x="0.10" y="0.90" perimeter="0"/>
+    <constraint x="0.10" y="0.85" perimeter="0"/>
+    <constraint x="0.10" y="0.80" perimeter="0"/>
+    <constraint x="0.10" y="0.75" perimeter="0"/>
+    <constraint x="0.10" y="0.70" perimeter="0"/>
+    <constraint x="0.10" y="0.65" perimeter="0"/>
+    <constraint x="0.10" y="0.60" perimeter="0"/>
+    <constraint x="0.10" y="0.55" perimeter="0"/>
+    <constraint x="0.10" y="0.50" perimeter="0"/>
+    <constraint x="0.10" y="0.45" perimeter="0"/>
+    <constraint x="0.10" y="0.40" perimeter="0"/>
+    <constraint x="0.10" y="0.35" perimeter="0"/>
+    <constraint x="0.10" y="0.30" perimeter="0"/>
+    <constraint x="0.10" y="0.25" perimeter="0"/>
+    <constraint x="0.10" y="0.20" perimeter="0"/>
+    <constraint x="0.10" y="0.15" perimeter="0"/>
+    <constraint x="0.10" y="0.10" perimeter="0"/>
+    <constraint x="0.10" y="0.05" perimeter="0"/>
+  </connections>
+  <background>
+    <path>
+      <move x="0" y="100"/>
+      <line x="50" y="100"/>
+      <line x="50" y="0"/>
+      <line x="0" y="0"/>
+    </path>
+  </background>
+  <foreground>
+    <stroke/>
+  </foreground>
+</shape>
+
+
+
+
+----------------------------------------------------------------------------------------------------
+Process Shape
+----------------------------------------------------------------------------------------------------
+
+
+<shape h="100" w="100" aspect="variable" strokewidth="inherit">
+  <connections>
+    <constraint x="0.00" y="0.00" perimeter="0"/>
+    <constraint x="0.05" y="0.00" perimeter="0"/>
+    <constraint x="0.10" y="0.00" perimeter="0"/>
+    <constraint x="0.15" y="0.00" perimeter="0"/>
+    <constraint x="0.20" y="0.00" perimeter="0"/>
+    <constraint x="0.25" y="0.00" perimeter="0"/>
+    <constraint x="0.30" y="0.00" perimeter="0"/>
+    <constraint x="0.35" y="0.00" perimeter="0"/>
+    <constraint x="0.40" y="0.00" perimeter="0"/>
+    <constraint x="0.45" y="0.00" perimeter="0"/>
+    <constraint x="0.50" y="0.00" perimeter="0"/>
+    <constraint x="0.55" y="0.00" perimeter="0"/>
+    <constraint x="0.60" y="0.00" perimeter="0"/>
+    <constraint x="0.65" y="0.00" perimeter="0"/>
+    <constraint x="0.70" y="0.00" perimeter="0"/>
+    <constraint x="0.75" y="0.00" perimeter="0"/>
+    <constraint x="0.80" y="0.00" perimeter="0"/>
+    <constraint x="0.85" y="0.00" perimeter="0"/>
+    <constraint x="0.90" y="0.00" perimeter="0"/>
+    <constraint x="0.95" y="0.00" perimeter="0"/>
+    <constraint x="1.00" y="0.00" perimeter="0"/>
+    <constraint x="1.00" y="0.05" perimeter="0"/>
+    <constraint x="1.00" y="0.10" perimeter="0"/>
+    <constraint x="1.00" y="0.15" perimeter="0"/>
+    <constraint x="1.00" y="0.20" perimeter="0"/>
+    <constraint x="1.00" y="0.25" perimeter="0"/>
+    <constraint x="1.00" y="0.30" perimeter="0"/>
+    <constraint x="1.00" y="0.35" perimeter="0"/>
+    <constraint x="1.00" y="0.40" perimeter="0"/>
+    <constraint x="1.00" y="0.45" perimeter="0"/>
+    <constraint x="1.00" y="0.50" perimeter="0"/>
+    <constraint x="1.00" y="0.55" perimeter="0"/>
+    <constraint x="1.00" y="0.60" perimeter="0"/>
+    <constraint x="1.00" y="0.65" perimeter="0"/>
+    <constraint x="1.00" y="0.70" perimeter="0"/>
+    <constraint x="1.00" y="0.75" perimeter="0"/>
+    <constraint x="1.00" y="0.80" perimeter="0"/>
+    <constraint x="1.00" y="0.85" perimeter="0"/>
+    <constraint x="1.00" y="0.90" perimeter="0"/>
+    <constraint x="1.00" y="0.95" perimeter="0"/>
+    <constraint x="1.00" y="1.00" perimeter="0"/>
+    <constraint x="1.00" y="1.00" perimeter="0"/>
+    <constraint x="0.95" y="1.00" perimeter="0"/>
+    <constraint x="0.90" y="1.00" perimeter="0"/>
+    <constraint x="0.85" y="1.00" perimeter="0"/>
+    <constraint x="0.80" y="1.00" perimeter="0"/>
+    <constraint x="0.75" y="1.00" perimeter="0"/>
+    <constraint x="0.70" y="1.00" perimeter="0"/>
+    <constraint x="0.65" y="1.00" perimeter="0"/>
+    <constraint x="0.60" y="1.00" perimeter="0"/>
+    <constraint x="0.55" y="1.00" perimeter="0"/>
+    <constraint x="0.50" y="1.00" perimeter="0"/>
+    <constraint x="0.45" y="1.00" perimeter="0"/>
+    <constraint x="0.40" y="1.00" perimeter="0"/>
+    <constraint x="0.35" y="1.00" perimeter="0"/>
+    <constraint x="0.30" y="1.00" perimeter="0"/>
+    <constraint x="0.25" y="1.00" perimeter="0"/>
+    <constraint x="0.20" y="1.00" perimeter="0"/>
+    <constraint x="0.15" y="1.00" perimeter="0"/>
+    <constraint x="0.10" y="1.00" perimeter="0"/>
+    <constraint x="0.05" y="1.00" perimeter="0"/>
+    <constraint x="0.00" y="1.00" perimeter="0"/>
+    <constraint x="0.00" y="0.95" perimeter="0"/>
+    <constraint x="0.00" y="0.90" perimeter="0"/>
+    <constraint x="0.00" y="0.85" perimeter="0"/>
+    <constraint x="0.00" y="0.80" perimeter="0"/>
+    <constraint x="0.00" y="0.75" perimeter="0"/>
+    <constraint x="0.00" y="0.70" perimeter="0"/>
+    <constraint x="0.00" y="0.65" perimeter="0"/>
+    <constraint x="0.00" y="0.60" perimeter="0"/>
+    <constraint x="0.00" y="0.55" perimeter="0"/>
+    <constraint x="0.00" y="0.50" perimeter="0"/>
+    <constraint x="0.00" y="0.45" perimeter="0"/>
+    <constraint x="0.00" y="0.40" perimeter="0"/>
+    <constraint x="0.00" y="0.35" perimeter="0"/>
+    <constraint x="0.00" y="0.30" perimeter="0"/>
+    <constraint x="0.00" y="0.25" perimeter="0"/>
+    <constraint x="0.00" y="0.20" perimeter="0"/>
+    <constraint x="0.00" y="0.15" perimeter="0"/>
+    <constraint x="0.00" y="0.10" perimeter="0"/>
+    <constraint x="0.00" y="0.05" perimeter="0"/>
+  </connections>
+  <background>
+    <roundrect x="0" y="0" w="100" h="100"/>
+  </background>
+  <foreground>
+    <stroke/>
+  </foreground>
+</shape>
+
+
+
+
+----------------------------------------------------------------------------------------------------
+Entity Shape
+----------------------------------------------------------------------------------------------------
+
+
+<shape h="100" w="100" aspect="variable" strokewidth="inherit">
+  <connections>
+    <constraint x="0.00" y="0.00" perimeter="0"/>
+    <constraint x="0.05" y="0.00" perimeter="0"/>
+    <constraint x="0.10" y="0.00" perimeter="0"/>
+    <constraint x="0.15" y="0.00" perimeter="0"/>
+    <constraint x="0.20" y="0.00" perimeter="0"/>
+    <constraint x="0.25" y="0.00" perimeter="0"/>
+    <constraint x="0.30" y="0.00" perimeter="0"/>
+    <constraint x="0.35" y="0.00" perimeter="0"/>
+    <constraint x="0.40" y="0.00" perimeter="0"/>
+    <constraint x="0.45" y="0.00" perimeter="0"/>
+    <constraint x="0.50" y="0.00" perimeter="0"/>
+    <constraint x="0.55" y="0.00" perimeter="0"/>
+    <constraint x="0.60" y="0.00" perimeter="0"/>
+    <constraint x="0.65" y="0.00" perimeter="0"/>
+    <constraint x="0.70" y="0.00" perimeter="0"/>
+    <constraint x="0.75" y="0.00" perimeter="0"/>
+    <constraint x="0.80" y="0.00" perimeter="0"/>
+    <constraint x="0.85" y="0.00" perimeter="0"/>
+    <constraint x="0.90" y="0.00" perimeter="0"/>
+    <constraint x="0.95" y="0.00" perimeter="0"/>
+    <constraint x="1.00" y="0.00" perimeter="0"/>
+    <constraint x="1.00" y="0.05" perimeter="0"/>
+    <constraint x="1.00" y="0.10" perimeter="0"/>
+    <constraint x="1.00" y="0.15" perimeter="0"/>
+    <constraint x="1.00" y="0.20" perimeter="0"/>
+    <constraint x="1.00" y="0.25" perimeter="0"/>
+    <constraint x="1.00" y="0.30" perimeter="0"/>
+    <constraint x="1.00" y="0.35" perimeter="0"/>
+    <constraint x="1.00" y="0.40" perimeter="0"/>
+    <constraint x="1.00" y="0.45" perimeter="0"/>
+    <constraint x="1.00" y="0.50" perimeter="0"/>
+    <constraint x="1.00" y="0.55" perimeter="0"/>
+    <constraint x="1.00" y="0.60" perimeter="0"/>
+    <constraint x="1.00" y="0.65" perimeter="0"/>
+    <constraint x="1.00" y="0.70" perimeter="0"/>
+    <constraint x="1.00" y="0.75" perimeter="0"/>
+    <constraint x="1.00" y="0.80" perimeter="0"/>
+    <constraint x="1.00" y="0.85" perimeter="0"/>
+    <constraint x="1.00" y="0.90" perimeter="0"/>
+    <constraint x="1.00" y="0.95" perimeter="0"/>
+    <constraint x="1.00" y="1.00" perimeter="0"/>
+    <constraint x="1.00" y="1.00" perimeter="0"/>
+    <constraint x="0.95" y="1.00" perimeter="0"/>
+    <constraint x="0.90" y="1.00" perimeter="0"/>
+    <constraint x="0.85" y="1.00" perimeter="0"/>
+    <constraint x="0.80" y="1.00" perimeter="0"/>
+    <constraint x="0.75" y="1.00" perimeter="0"/>
+    <constraint x="0.70" y="1.00" perimeter="0"/>
+    <constraint x="0.65" y="1.00" perimeter="0"/>
+    <constraint x="0.60" y="1.00" perimeter="0"/>
+    <constraint x="0.55" y="1.00" perimeter="0"/>
+    <constraint x="0.50" y="1.00" perimeter="0"/>
+    <constraint x="0.45" y="1.00" perimeter="0"/>
+    <constraint x="0.40" y="1.00" perimeter="0"/>
+    <constraint x="0.35" y="1.00" perimeter="0"/>
+    <constraint x="0.30" y="1.00" perimeter="0"/>
+    <constraint x="0.25" y="1.00" perimeter="0"/>
+    <constraint x="0.20" y="1.00" perimeter="0"/>
+    <constraint x="0.15" y="1.00" perimeter="0"/>
+    <constraint x="0.10" y="1.00" perimeter="0"/>
+    <constraint x="0.05" y="1.00" perimeter="0"/>
+    <constraint x="0.00" y="1.00" perimeter="0"/>
+    <constraint x="0.00" y="0.95" perimeter="0"/>
+    <constraint x="0.00" y="0.90" perimeter="0"/>
+    <constraint x="0.00" y="0.85" perimeter="0"/>
+    <constraint x="0.00" y="0.80" perimeter="0"/>
+    <constraint x="0.00" y="0.75" perimeter="0"/>
+    <constraint x="0.00" y="0.70" perimeter="0"/>
+    <constraint x="0.00" y="0.65" perimeter="0"/>
+    <constraint x="0.00" y="0.60" perimeter="0"/>
+    <constraint x="0.00" y="0.55" perimeter="0"/>
+    <constraint x="0.00" y="0.50" perimeter="0"/>
+    <constraint x="0.00" y="0.45" perimeter="0"/>
+    <constraint x="0.00" y="0.40" perimeter="0"/>
+    <constraint x="0.00" y="0.35" perimeter="0"/>
+    <constraint x="0.00" y="0.30" perimeter="0"/>
+    <constraint x="0.00" y="0.25" perimeter="0"/>
+    <constraint x="0.00" y="0.20" perimeter="0"/>
+    <constraint x="0.00" y="0.15" perimeter="0"/>
+    <constraint x="0.00" y="0.10" perimeter="0"/>
+    <constraint x="0.00" y="0.05" perimeter="0"/>
+  </connections>
+  <background>
+    <rect x="0" y="0" w="100" h="100"/>
+  </background>
+  <foreground>
+    <stroke/>
+  </foreground>
+</shape>
+
