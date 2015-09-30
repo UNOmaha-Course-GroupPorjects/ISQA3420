@@ -51,7 +51,6 @@ Data Store Opens on the Right:
     <constraint x="0.90" y="0.90" perimeter="0"/>
     <constraint x="0.90" y="0.95" perimeter="0"/>
     <constraint x="1.00" y="1.00" perimeter="0"/>
-    <constraint x="1.00" y="1.00" perimeter="0"/>
     <constraint x="0.95" y="1.00" perimeter="0"/>
     <constraint x="0.90" y="1.00" perimeter="0"/>
     <constraint x="0.85" y="1.00" perimeter="0"/>
@@ -154,7 +153,6 @@ Data Store Opens on the Left:
     <constraint x="1.00" y="0.90" perimeter="0"/>
     <constraint x="1.00" y="0.95" perimeter="0"/>
     <constraint x="1.00" y="1.00" perimeter="0"/>
-    <constraint x="1.00" y="1.00" perimeter="0"/>
     <constraint x="0.95" y="1.00" perimeter="0"/>
     <constraint x="0.90" y="1.00" perimeter="0"/>
     <constraint x="0.85" y="1.00" perimeter="0"/>
@@ -218,7 +216,6 @@ Process Shape
 
 <shape h="100" w="100" aspect="variable" strokewidth="inherit">
   <connections>
-    <constraint x="0.00" y="0.00" perimeter="0"/>
     <constraint x="0.05" y="0.00" perimeter="0"/>
     <constraint x="0.10" y="0.00" perimeter="0"/>
     <constraint x="0.15" y="0.00" perimeter="0"/>
@@ -238,7 +235,6 @@ Process Shape
     <constraint x="0.85" y="0.00" perimeter="0"/>
     <constraint x="0.90" y="0.00" perimeter="0"/>
     <constraint x="0.95" y="0.00" perimeter="0"/>
-    <constraint x="1.00" y="0.00" perimeter="0"/>
     <constraint x="1.00" y="0.05" perimeter="0"/>
     <constraint x="1.00" y="0.10" perimeter="0"/>
     <constraint x="1.00" y="0.15" perimeter="0"/>
@@ -258,8 +254,6 @@ Process Shape
     <constraint x="1.00" y="0.85" perimeter="0"/>
     <constraint x="1.00" y="0.90" perimeter="0"/>
     <constraint x="1.00" y="0.95" perimeter="0"/>
-    <constraint x="1.00" y="1.00" perimeter="0"/>
-    <constraint x="1.00" y="1.00" perimeter="0"/>
     <constraint x="0.95" y="1.00" perimeter="0"/>
     <constraint x="0.90" y="1.00" perimeter="0"/>
     <constraint x="0.85" y="1.00" perimeter="0"/>
@@ -279,7 +273,6 @@ Process Shape
     <constraint x="0.15" y="1.00" perimeter="0"/>
     <constraint x="0.10" y="1.00" perimeter="0"/>
     <constraint x="0.05" y="1.00" perimeter="0"/>
-    <constraint x="0.00" y="1.00" perimeter="0"/>
     <constraint x="0.00" y="0.95" perimeter="0"/>
     <constraint x="0.00" y="0.90" perimeter="0"/>
     <constraint x="0.00" y="0.85" perimeter="0"/>
@@ -358,7 +351,6 @@ Entity Shape
     <constraint x="1.00" y="0.85" perimeter="0"/>
     <constraint x="1.00" y="0.90" perimeter="0"/>
     <constraint x="1.00" y="0.95" perimeter="0"/>
-    <constraint x="1.00" y="1.00" perimeter="0"/>
     <constraint x="1.00" y="1.00" perimeter="0"/>
     <constraint x="0.95" y="1.00" perimeter="0"/>
     <constraint x="0.90" y="1.00" perimeter="0"/>
