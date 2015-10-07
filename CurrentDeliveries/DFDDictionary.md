@@ -7,7 +7,7 @@ ENTITIES
 -----------------------------------------------------
 Developer - Internal employees in charge of developing, maintaining and integrating, internal, proprietary, as well as external, open source code. To be used in any software or project, for internal or external use, by the company.
 
-Project Manager LVL 1 - A manager directly overseeing the related development project, This person is responsible for the project and all its parts including; risk, OS use, funding, etc.
+Project Manager - A manager directly overseeing the related development project, This person is responsible for the project and all its parts including; risk, OS use, funding, etc.
 
 OSS Repository / Community - This refers to the OSS Repositories such as Github.
 
