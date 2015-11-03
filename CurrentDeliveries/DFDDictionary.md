@@ -44,3 +44,131 @@ Data Flows
 
 
 
+
+
+
+
+
+
+----------------------------------------------------
+Revision - Up to date Term List
+----------------------------------------------------
+
+----------------------------------------------------
+Entities:
+----------------------------------------------------
+Developer
+Project Manager
+
+----------------------------------------------------
+Sub Entities:
+----------------------------------------------------
+Web Source
+National Vulnerability Database
+
+
+
+
+----------------------------------------------------
+Data Stores:
+----------------------------------------------------
+Integration Mng DB -> Integration, Risk and Policy DB
+OSS DB
+Project DB
+NIST CPE Information
+
+
+
+
+
+----------------------------------------------------
+Processes:
+----------------------------------------------------
+PRC 1.0: Submittal For Use
+PRC 1.1: OS Package Risk Assessment
+PRC 1.1: Generate Risk Assessment Report
+PRC 1.2: Extract Licensing Information (FOSSology)
+PRC 1.2: Gen OS Package SHA1
+PRC 1.2: Assess Risk Object Policy
+PRC 1.2: Get OS Package CPE
+PRC 1.2: Get The CVE from The OS CPE
+PRC 1.3: Manage CPE Information (Daily Job)
+PRC 2.0: Submittal For Exception
+PRC 2.1: Request Usage Exception
+PRC 2.1: Generate Exception Report
+PRC 2.1: Request Exception
+PRC 2.2: Get Assessment Project Info
+PRC 3.0: Submittal To Project
+PRC 3.1: Integrate New Project Code into Project
+PRC 3.2: Search Code for Previously Existing Source
+PRC 3.2: Find Proprietary Code in the Project Code File
+PRC 3.2: Find OS Code in the Project Code File
+PRC 3.2: Determine Approved Use of OS Code
+
+
+
+
+
+----------------------------------------------------
+Data FLows:
+----------------------------------------------------
+
+----------------------------------------------------
+(PRC 1)
+OS Package
+OS Package: Query
+Project Name
+Project Name: Query
+Project ID: Info
+OS Useage Info
+OS License
+OS License: Add
+OS Package SHA1
+OS Package SHA1: Add
+OS CPE
+OS CPE: Info
+OS CPE: Query
+OS CPE: Add
+OS CPE: Response
+OS CPE: Request
+OS CVE
+OS CVE: Info
+OS CVE: Add
+Project Info
+Risk Info
+Risk Object
+Risk Object: Query
+Risk Policy
+Risk Policy: Info
+Risk Assessment Report
+Risk Assessment Report: Add
+
+----------------------------------------------------
+(PRC 2)
+Exception Request
+Project: Query
+Project: Info
+Risk Info: Unapproved
+Exception Report
+Exception Report: Request
+Exception Report: Response
+
+----------------------------------------------------
+(PRC 3)
+Project Code File
+Project Code File: Add
+Integration Report
+Proprietary Code: Query
+Proprietary Code: Files
+Proprietary Code: Found
+OS Code: Query
+OS Code: Files
+OS Code: Found
+OS Approved Use: Query
+OS Approved Use: Info
+Licencing Obligations
+Project Code File
+OS Approved Use and Compliance
+
+
+
