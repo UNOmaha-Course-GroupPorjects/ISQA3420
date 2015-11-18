@@ -1,22 +1,24 @@
 ## Title: Determine License and Vulnerability Information 
-**Primary Actor:** Corporate Manager
+**Primary Actor:** Project Manager
 
-**Goal in Context:**  The corporate manager is able to determine license and vulnerability information from provided project information
+**Goal in Context:**  The project manager is able to determine license and vulnerability information from provided project information.
 
 __Stakeholders:__
-  >-Corporate Manager: To receive clear and relevant project information
+  >-Project Manager: To receive clear and relevant project information.
   
-  >-Corporate Developer: To provide the relevant file/package level information 
+  >-Developer: To provide the relevant file/package level information.  
   
-  >-Project Owner: To clearly understand corporate manager decisions to green/red light a project 
+  >-Project Owner: To clearly understand corporate manager decisions to green/red light a project. 
 
 __Preconditions:__
-  >-Relevant file/package information is in the SPDX database 
+  >-Relevant file/package with licesne and vulnerability information was previously retrieved successfully and that information is in the OSS database. 
   
-  >-Proper project information has been provided  
+  >-Proper project information is in the project database and is provided in the query to that database.  
+  
+  >-License and vulnerability information exists for the package and within the national vulnerability database.  
 
-**Main Success Scenario:**  Corporate manager receives accurate license and vulnerability information for the requested project packages
+**Main Success Scenario:**  Project manager receives accurate license and vulnerability information for the requested project packages.
 
-**Failed End Conditions:**  Corporate manager receives inaccurate or invalid license and vulnerability information for the requested project packages
+**Failed End Conditions:**  Project manager receives inaccurate or invalid license and vulnerability information for the requested project packages.
 
-**Trigger:**  Corporate manager uploads or identifies project information to which license and vulnerability information is provided
+**Trigger:**  Project manager identifies project information to which license and vulnerability information is provided.
