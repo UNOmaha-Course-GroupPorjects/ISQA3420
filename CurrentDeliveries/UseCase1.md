@@ -9,8 +9,9 @@ __Stakeholders:__
   -Project Owner: To clearly understand corporate manager decisions to green/red light a project 
 
 __Preconditions:__
-  -Relevant file/package information is in the SPDX database
-  -Proper project information has been provided  
+  >-Relevant file/package information is in the SPDX database 
+  
+  >-Proper project information has been provided  
 
 **Main Success Scenario:**  Corporate manager receives accurate license and vulnerability information for the requested project packages
 
