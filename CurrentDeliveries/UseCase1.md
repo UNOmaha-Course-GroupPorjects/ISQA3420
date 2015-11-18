@@ -4,9 +4,11 @@
 **Goal in Context:**  The corporate manager is able to determine license and vulnerability information from provided project information
 
 __Stakeholders:__
-  -Corporate Manager: To receive clear and relevant project information
-  -Corporate Developer: To provide the relevant file/package level information 
-  -Project Owner: To clearly understand corporate manager decisions to green/red light a project 
+  >-Corporate Manager: To receive clear and relevant project information
+  
+  >-Corporate Developer: To provide the relevant file/package level information 
+  
+  >-Project Owner: To clearly understand corporate manager decisions to green/red light a project 
 
 __Preconditions:__
   >-Relevant file/package information is in the SPDX database 
