@@ -57,27 +57,27 @@ PRC 1.2: Get The CVE from The OS CPE - Queries the National Vulnerability Databa
 
 PRC 1.3: Manage CPE Information (Daily Job) - Updates our local NIST CPE Information from the National Vulnerability Database, daily.
 
-PRC 2.0: Submittal For Exception - Receives a Risk Assessment Report and an Exception Request and sends it to the project manager to approve use case given the Vulnerabilities, Licensing's effect on the project. And then takes the managers response (Approved Use Report) and sends it to store in the Integration Mng DB, as well as to the developer
+PRC 2.0: Submittal For Exception - Receives a Risk Assessment Report and an Exception Request and sends it to the project manager to approve use case given the Vulnerabilities, Licensing's effect on the project. It then takes the managers response (Approved Use Report) and sends it to be stored in the Integration Mng DB, as well as to the developer.
 
-PRC 2.1: Request Usage Exception
+PRC 2.1: Request Usage Exception - Receives a Risk Assessment Report and an Exception Request and gets the related project's info, and sends the data on, to have an exception report generated.
 
-PRC 2.1: Generate Exception Report
+PRC 2.1: Generate Exception Report - Generates an exception report, and sends it on, to get reviewed by a project manager.
 
-PRC 2.1: Request Exception
+PRC 2.1: Request Exception - Sends the Exception Report to the project manager, once a response is recieved from the manager, it is sent to the developer and stored in the Integration Mng DB.
 
-PRC 2.2: Get Assessment Project Info
+PRC 2.2: Get Assessment Project Info - Recieves a Risk Assessment Report and queries the Project DB for the project info related to that assessment, and returns it.
 
-PRC 3.0: Submittal To Project
+PRC 3.0: Submittal To Project - Recieves source code for a project, evaluates that source code to find both proprietary and open source code, from the project and OSS databases, as well as any of the found open source code's risk and allowed usage info from the Integrated Mng DB. Using all this info, it determines, if the source code meets allowed use and if so what licensing obligations must be met. If allowed, obligations are met, it sends an Integration report to the developer and adds the source code file to the project DB.
 
-PRC 3.1: Integrate New Project Code into Project
+PRC 3.1: Integrate New Project Code into Project - Recieves source code for a project, passes it along to determine allowed use. When approved use and compliance is returned it generates and sends an integration report to the developer. If it was approved it, finally,  adds the source code file to the project DB.
 
-PRC 3.2: Search Code for Previously Existing Source
+PRC 3.2: Search Code for Previously Existing Source - Sends the recieved source code off to be searched for Proprietary and OSS, and then sends the source code on to get any obligations fullfilled.
 
-PRC 3.2: Find Proprietary Code in the Project Code File
+PRC 3.2: Find Proprietary Code in the Project Code File - Searches through the recieved source code for existing proprietary code from the Project DB and passes any found project files found.
 
-PRC 3.2: Find OS Code in the Project Code File
+PRC 3.2: Find OS Code in the Project Code File - Searches through the recieved source code for submitted open source software code from the OSS DB and passes any found open source found.
 
-PRC 3.2: Determine Approved Use of OS Code
+PRC 3.2: Determine Approved Use of OS Code - Gets any of the found open source code's risk and allowed usage info from the Integrated Mng DB. Using all this info, it determines, if the source code meets allowed use and if so what licensing obligations must be met. If allowed, meets obligations.
 
 
 
