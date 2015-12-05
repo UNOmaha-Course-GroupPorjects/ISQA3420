@@ -13,6 +13,9 @@
 >> - Apache - Green
 >> - MIT - Green
 
+>Restrictive
+>> - AGPLv3 - Red
+
 >Other
 >> - No License - Yellow
 >> - Unlicense - Green
