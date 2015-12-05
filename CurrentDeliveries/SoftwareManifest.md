@@ -1,32 +1,21 @@
 # Software Manifest
 
 ##Document
->-DocumentLicense:
-
->-Author:
-
->-DateCreated:
+- DocumentLicense:
+- Author:
+- DateCreated:
 
 ##Package
->-Name:
-
->-SHA1:
-
->-CPE:
-
->-Licenses:
-
->-Vulnerabilities:
-
->-PackageUse:
-
->-DateRetrieved:
+- Name:
+- SHA1:
+- CPE:
+- Licenses:
+- Vulnerabilities:
+- PackageUse:
+- DateRetrieved:
 
 ##File
->-Name:
-
->-License:
-
->-Vulnerability:
-
->-DateRetrieved:
+- Name:
+- License:
+- Vulnerability:
+- DateRetrieved:
