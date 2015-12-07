@@ -22,5 +22,5 @@
 
 ### Vunlnerabilities
 >Scores
-- >>X\<6 - Green
-- >>X\>6 - Yellow
+- X\<6 - Green
+- X\>6 - Yellow
