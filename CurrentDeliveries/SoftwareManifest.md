@@ -1,4 +1,5 @@
 # Software Manifest
+------------------------------------------
 
 ##Document
 - DocumentLicense:
