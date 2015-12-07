@@ -110,7 +110,7 @@ OS Package SHA1 - Hash of the OS Package file (e.g. http://www.sha1-online.com/)
 
 OS Package SHA1: Add - An SQL Update and/or Insert Into Query that adds the OS Package's SHA1 to a Project and/or Project file(s) in the Database.
 
-OS CPE - 
+OS CPE - A document that can be used to determine if an OS Package has any CVEs (Common Platform Enumeration – A standard naming scheme for software packages)
 
 OS CPE: Query - An SQL Select Query for the open source package's CVE, that matches the given open source package's CPE.
 
@@ -120,7 +120,7 @@ OS CPE: Response - All the current CPEs from the National Vulnerability Database
 
 OS CPE: Request - A structured request to the National Vulnerability Database for all known CPEs in the Database.
 
-OS CVE - 
+OS CVE - The OS Package's Common Vulnerability Enumeration information.
 
 OS CVE: Add - An SQL Update and/or Insert Into Query that adds the OS CVE information to a Project and/or Project file(s) in the Database.
 
@@ -156,7 +156,7 @@ Exception Report: Response - An Exception Request that has been approved or disa
 ----------------------------------------------------
 (PRC 3)
 
-Project Code File
+Project Code File - A source code file being submitted into a specified project.
 
 Project Code File: Add
 
