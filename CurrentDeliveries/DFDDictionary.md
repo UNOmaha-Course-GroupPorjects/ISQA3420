@@ -49,7 +49,7 @@ PRC 1.2: Extract Licensing Information (FOSSology) - Utilizes FOSSOLOGY to scan 
 
 PRC 1.2: Gen OS Package SHA1 - Generates a SHA1 from the recieved OS Package and returns it.
 
-PRC 1.2: Assess Risk Object Policy - Takes the recieved risk object and queries the Integration Mng DB for the allowed usage/integration info for that risk object, and then returns that information.
+PRC 1.2: Assess Risk Object Policy - Takes the recieved risk object and queries the Integration Mng DB for the allowed usage/integration info for that risk object, and then returns that information. If an unrecognized risk object is found, then the proccess requeries the database for the unknown risk policy, and returns that instead. 
 
 PRC 1.2: Get OS Package CPE - Queries the NIST CPE Information DB for the OS Package's CPE and then stores it into OSS DB and sends it to PRC 1.2: Get The CVE from The OS CPE.
 
@@ -90,59 +90,51 @@ Data FLows:
 ----------------------------------------------------
 (PRC 1)
 
-OS Package
+OS Package - An Open Source File Package Obtained from outside the company.
 
-OS Package: Query
+OS Package: Query - An SQL Select Query for the OS CPE, for the given OS Package.
 
-Project Name
+Project Name - The name of a Project.
 
-Project Name: Query
+Project Name: Query - An SQL Select Query for the Project ID (primary key) with the given Project Name.
 
-Project ID: Info
+Project ID - The Unique Primary Key of a project.
 
-OS Useage Info
+OS Useage Info - A structured data or file containing a meaningfull description of how the provided OS Package is planned on being integrated into the given project. Wheather it remain un edited, changed, or integrated with existing proprietary source code.
 
-OS License
+OS License - License information for the given Open Source File or Package.
 
-OS License: Add
+OS License: Add - An SQL Update and/or Insert Into Query that adds the OS License information to a Project and/or Project file(s) in the Database.
 
-OS Package SHA1
+OS Package SHA1 - Hash of the OS Package file (e.g. http://www.sha1-online.com/).
 
-OS Package SHA1: Add
+OS Package SHA1: Add - An SQL Update and/or Insert Into Query that adds the OS Package's SHA1 to a Project and/or Project file(s) in the Database.
 
-OS CPE
+OS CPE - 
 
-OS CPE: Info
+OS CPE: Query - An SQL Select Query for the open source package's CVE, that matches the given open source package's CPE.
 
-OS CPE: Query
+OS CPE: Add - An SQL Update and/or Insert Into Query that adds the OS CPE information to a Project and/or Project file(s) in the Database.
 
-OS CPE: Add
+OS CPE: Response - All the current CPEs from the National Vulnerability Database.
 
-OS CPE: Response
+OS CPE: Request - A structured request to the National Vulnerability Database for all known CPEs in the Database.
 
-OS CPE: Request
+OS CVE - 
 
-OS CVE
+OS CVE: Add - An SQL Update and/or Insert Into Query that adds the OS CVE information to a Project and/or Project file(s) in the Database.
 
-OS CVE: Info
+Risk Info - A file or structured compilation of data, containing a meaningfull description of a OS Package's identified risk information. This includes risks identified within its CVE information, and its license information.
 
-OS CVE: Add
+Risk Object - A file or structured data containing a meaningfull description of an identified risk from a given OS Package. This includes risks identified within both the open source package's CVE vulnerabilities, and the open source packages's licenses.
 
-Project Info
+Risk Object: Query - An SQL Select Query for the given Risk Object's Risk Policy Information.
 
-Risk Info
+Risk Policy - A file or structured data containing a meaningfull description of the company's policies regarding the predefined allowed use of an OS Package containing the given risk.
 
-Risk Object
+Risk Assessment Report - A file, containing the meaningfull description of a OS Package's risk and use information and their related policies for the specified project. (Contains: OS Package SHA1, OS CVE, OS License, Risk Objects, Risk Policies, OS Usage Info and Project ID)
 
-Risk Object: Query
-
-Risk Policy
-
-Risk Policy: Info
-
-Risk Assessment Report
-
-Risk Assessment Report: Add
+Risk Assessment Report: Add - An SQL Insert Into Query that adds the Risk Assessment Report File, containing the risk and use information related to the OS Package and the Project, to a Database.
 
 ----------------------------------------------------
 (PRC 2)
@@ -176,7 +168,7 @@ Proprietary Code: Files
 
 Proprietary Code: Found
 
-OS Code: Query
+OS Code: Query - An SQL Query for any OS Code files based upon the provided source code file.
 
 OS Code: Files
 
