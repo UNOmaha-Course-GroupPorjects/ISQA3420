@@ -11,6 +11,7 @@
 - CPE:
 - Licenses:
 - Vulnerabilities:
+- Copyright:
 - PackageUse:
 - DateRetrieved:
 
