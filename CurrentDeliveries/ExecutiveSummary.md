@@ -24,7 +24,7 @@ Within the submittal process, if any external source is identified within the fi
 ____________________
 Our organization is benefiting from the use of external open source code by saving both time and money in development.  By leveraging the expertise and knowledge base of open source development communities, we are effictively importing increased talent and resources without having expanded our payrolls. With this benefit comes increased risk and the above outlined system mitigates this risk.  Multiple levels of review are put in place to ensure that we are tracking that risk, and that appropriate decision making is done by our management based upon the risks and responsibilities identified on open source code imported into our organization.  We are meeting our social responsibility to contribute back to the user community through automated processes.  Most importantly, we are identifying approved uses early in the projects life cycle ensuring, which is tracked, thereby effectively setting corporate policy and ensuring that use of external resources is consistent with that policy as it applies to the specific project at hand.  Full implementation of this system will prevent future costs and potential litigation issues that we are susceptible to if we use open source without any limitations.  
 
-Bibliography
+Sources:
 
 Software Enforcement and the U.S. Law. (n.d.). Retrieved December 6, 2015, from BSA | The Software Alliance: http://www.bsa.org/anti-piracy/tools-page/software-piracy-and-the-law/?sc_lang=en-US
 
