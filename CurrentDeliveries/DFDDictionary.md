@@ -139,7 +139,7 @@ Risk Assessment Report: Add - An SQL Insert Into Query that adds the Risk Assess
 ----------------------------------------------------
 (PRC 2)
 
-Exception Request
+Exception Request - A file, containing a fomal, meaningfull description from a developer, as to why a policy exception should be made, on a particular OS Package's Risk.
 
 Project: Query
 
