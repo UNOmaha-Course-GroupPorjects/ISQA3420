@@ -141,17 +141,17 @@ Risk Assessment Report: Add - An SQL Insert Into Query that adds the Risk Assess
 
 Exception Request - A file, containing a fomal, meaningfull description from a developer, as to why a policy exception should be made, on a particular OS Package's Risk.
 
-Project: Query
+Project: Query - An SQL Select Query for Project Information given a Project ID.
 
-Project: Info
+Project: Info - Information about the project that requires an exception.
 
-Risk Info: Unapproved
+Risk Info: Unapproved - The Risk Information that has been marked as unapproved, from the Risk Assessment Report.
 
-Exception Report
+Exception Report - A file, containing the meaningfull description of a OS Package's risk information that has been marked as unapproved, from the Risk Assessment Report and written exception requests that identify why this can or needs to be overlooked.
 
-Exception Report: Request
+Exception Report: Request - An sent request for followup and response from a project manager, pertaining to an included Exception Report.
 
-Exception Report: Response
+Exception Report: Response - An Exception Request that has been approved or disapproved and describes why, from the project manager.
 
 ----------------------------------------------------
 (PRC 3)
