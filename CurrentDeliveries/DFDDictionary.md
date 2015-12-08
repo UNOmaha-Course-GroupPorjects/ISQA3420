@@ -158,31 +158,21 @@ Exception Report: Response - An Exception Request that has been approved or disa
 
 Project Code File - A source code file being submitted into a specified project.
 
-Project Code File: Add
+Project Code File: Add - An SQL Insert Into Query that adds the Project's new source code file, to a Database.
 
-Integration Report
+Integration Report - A report that tells us whether or not the Project code file was successfully added to the Project DB.
 
-Proprietary Code: Query
+Proprietary Code: Query - An SQL Select Query for Proprietary code found in the given Project Code File.
 
-Proprietary Code: Files
+Proprietary Code Found - Proprietary Source Code and it's related project information found in the provided Project Code File.
 
-Proprietary Code: Found
+OS Code: Query - An SQL Select Query for any OS Code files based upon the provided project source code file.
 
-OS Code: Query - An SQL Query for any OS Code files based upon the provided source code file.
+OS Code Found - Open Source Code and it's related Package information found in the provided Project Code File.
 
-OS Code: Files
+Licencing Obligations - Any obligations that may need to be addressed given any found OS's use.
 
-OS Code: Found
-
-OS Approved Use: Query
-
-OS Approved Use: Info
-
-Licencing Obligations
-
-Project Code File
-
-OS Approved Use and Compliance
+OS Approved Use and Compliance - Whether the Project Code File can be used, and complies with all obligations and policies.
 
 
 
