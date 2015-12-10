@@ -1,7 +1,7 @@
 ## Title: Submittal for Exception
 **Primary Actor:** Project Manager
 
-**Goal in Context:**  The project manager is able to review license and vulnerability information for the reqeusted exception, review it in context against existing policy, and provide a response to the requesting developer on whether the exception request is approved or denied.
+**Goal in Context:**  The project manager is able to review license and vulnerability information for the requested exception, review it in context of the specific project and intended use against existing policy, and provide a response to the requesting developer on whether the exception request is approved or denied.
 
 __Stakeholders:__
   >-Project Manager:  To determine receive clear information on the requested exception, including identified risks, and determine if an exception can be made. 
