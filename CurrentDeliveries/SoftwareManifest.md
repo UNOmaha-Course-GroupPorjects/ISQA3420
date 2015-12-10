@@ -5,6 +5,10 @@
 - DocumentLicense:
 - Author:
 - DateCreated:
+- Associated Package:
+- Associated Package Use:
+- Associated Project:
+- Associated Documents:
 
 ##Package
 - Name:
@@ -13,11 +17,13 @@
 - Licenses:
 - Vulnerabilities:
 - Copyright:
-- PackageUse:
+- Package Use:
+- Associated Project Name:
 - DateRetrieved:
 
 ##File
-- Name:
+- File Name:
+- File Path:
 - License:
 - Vulnerability:
 - DateRetrieved:
