@@ -13,7 +13,7 @@ __Preconditions:__
   
   >-The file or package has a Common Platform Enumeration (CPE)
   
-**Main Success Scenario:** The package or file is submitted to the database with relevant associated vulnerabilities and license information
+**Main Success Scenario:** The package or file is submitted to the database with relevant associated vulnerabilities and license information.
 
 **Failed End Conditions:** The package or file is not submitted to the database, or the system is unable to locate the associated licesne anv vulnerability information.
 
