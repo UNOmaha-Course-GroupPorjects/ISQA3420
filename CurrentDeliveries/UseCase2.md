@@ -1,4 +1,4 @@
-## Title: Submit Code Package
+## Title: Submit For Use
 **Primary Actor:** Corporate Developer
 
 **Goal in Context:** A developer submits a package to the system, and it sucessfully creates a hash file, locates license and vulnerability information which is written to a database, then launches the risk assessment portion of the workflow.
