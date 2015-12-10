@@ -1,10 +1,10 @@
 ## Title: Submittal For Use
-**Primary Actor:** Corporate Developer
+**Primary Actor:** Developer
 
 **Goal in Context:** A developer submits a package to the system, and it sucessfully creates a hash file, locates license and vulnerability information which is written to a database, then launches the risk assessment portion of the workflow.
 
 __Stakeholders:__
-  >-Corporate Developer: To submit package and file information to the system to determine if the code is acceptable for use.
+  >-Developer: To submit package and file information to the system to determine if the code is acceptable for use.
   
 __Preconditions:__
   >-The package or file is not already in the system, submission is not required if the package or file is already present.
