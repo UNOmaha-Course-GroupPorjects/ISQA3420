@@ -1,24 +1,24 @@
-## Title: Determine License and Vulnerability Information 
+## Title: Submittal for Exception
 **Primary Actor:** Project Manager
 
-**Goal in Context:**  The project manager is able to determine license and vulnerability information from provided project information.
+**Goal in Context:**  The project manager is able to review license and vulnerability information for the reqeusted exception, review it in context against existing policy, and provide a response to the requesting developer on whether the exception request is approved or denied.
 
 __Stakeholders:__
-  >-Project Manager: To receive clear and relevant project information.
+  >-Project Manager:  To determine receive clear information on the requested exception, including identified risks, and determine if an exception can be made. 
   
-  >-Developer: To provide the relevant file/package level information.  
-  
-  >-Project Owner: To clearly understand corporate manager decisions to green/red light a project. 
+  >-Developer: To gain approval for for exception to be made to existing policy, in the context of the project that open source package is intended to be used in.  
 
 __Preconditions:__
   >-Relevant file/package with licesne and vulnerability information was previously retrieved successfully and that information is in the OSS database. 
   
-  >-Proper project information is in the project database and is provided in the query to that database.  
+  >-A risk assessment report has been previously generated.
   
-  >-License and vulnerability information exists for the package and within the national vulnerability database.  
+  >-Proper project information is in the project database.  
+  
+  >-Developer provided intended use and the correct project name when generating the risk assessment report.  
 
-**Main Success Scenario:**  Project manager receives accurate license and vulnerability information for the requested project packages.
+**Main Success Scenario:**  Project manager receives required information in the exception report, approves or denies the exception request, and a response is returned to the developer.
 
-**Failed End Conditions:**  Project manager receives inaccurate or invalid license and vulnerability information for the requested project packages.
+**Failed End Conditions:**  Project manager does not receive the request, request is missing critical information needed to determine whether the request is approved, a response of approval/denial is not received by the developer.
 
-**Trigger:**  Project manager identifies project information to which license and vulnerability information is provided.
+**Trigger:**  Developer submits an exception request along with a previously generated risk assessment report.
