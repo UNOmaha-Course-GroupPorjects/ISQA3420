@@ -1,4 +1,4 @@
-## Title: Submital To Project
+## Title: Submittal To Project
 **Primary Actor:** Developer
 
 **Goal in Context:** Final code is submitted to project, reviewed for compliancy with corporate policy and exceptions if applicable, and all licensing obligations are addressed.
